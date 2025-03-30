@@ -1,0 +1,30 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "A website which can help keep track of daily expenses and gives out proper predicted records of how much money you spend on what type of things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhyan-jain/ExpenseTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhyan-jain/ExpenseTracker/issues"
+  },
+  "homepage": "https://github.com/adhyan-jain/ExpenseTracker#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "expressjs": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
